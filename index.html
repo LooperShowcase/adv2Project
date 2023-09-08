@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Counter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <center>
+    <img width="10%" src="logo.png" alt="">
+    <div class="container">
+      
+      <div class="player" id="blueP" onclick="blueFunc()">
+        <h1>Blue</h1>
+        <p class="score" id="blueScore">0</p>
+      </div>
+
+     <div class="player" id="redP" onclick="redFunc()">
+      <h1>Red</h1>
+      <p class="score" id="redScore">0</p>
+      </div>
+  
+    </div>
+
+
+  <br><br>
+  <button id="reset" onclick="reset()"> Reset </button>
+  <button id="random" onclick="random()"> Random </button>
+<button id="Showlogs" onclick="showLogs()"> Show Logs </button>
+
+<div>
+  <p id="logs"></p>
+</div>
+</center>
+
+<script src="script.js"></script>
+</body>
+</html>

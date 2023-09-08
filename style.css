@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(182, 189, 199);
+  color: white;
+  margin: 0; 
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.player {
+  border-radius: 30px;
+  text-align: center;
+}
+
+#blueP {
+  background-color: blue;
+  width: 48%; 
+  margin: 10px;
+}
+
+#redP {
+  background-color: red;
+  width: 48%; 
+  margin: 10px;
+}
+
+.score {
+  color: white;
+  font-size: 100px;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #4285f4;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+}
+
+#logs {
+  background-color: grey;
+  width: 500px;
+  height: auto;
+  border-radius: 30px;
+}
