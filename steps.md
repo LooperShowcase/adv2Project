@@ -49,8 +49,12 @@
 </div>
 ```
 - Add 3 buttons below the parent ("container") div
+- add another div that has p-tag inside it with the id="logs" (as in the code below)
   ```html
   <button id="reset" onclick="reset()"> Reset </button>
   <button id="random" onclick="random()"> Random </button>
   <button id="Showlogs" onclick="showLogs()"> Show Logs </button>
+  <div>
+    <p id="logs"></p>
+  </div>
 ```
