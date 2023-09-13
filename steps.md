@@ -49,7 +49,7 @@
 </div>
 ```
 - Add 3 buttons below the parent ("container") div
-  ```
+  ```html
   <button id="reset" onclick="reset()"> Reset </button>
   <button id="random" onclick="random()"> Random </button>
   <button id="Showlogs" onclick="showLogs()"> Show Logs </button>
