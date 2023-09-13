@@ -4,7 +4,7 @@
 the projects will have couple new features that will make cooler such as making random score and saving logs.
 Explin to Loopers what Logs are and give an example in football that in a match we don't just add the score when a team scores a goal but we know in what order what time and more data.
 
-## 1
+## 1 HTML
 - Start with making a copy of the starter folder for each Looper, The starter folder has     
   index.html, empty style.css+ script.js
 - Create a parent div with the class "container"
@@ -61,3 +61,18 @@ Explin to Loopers what Logs are and give an example in football that in a match 
     <p id="logs"></p>
   </div>
 ```
+
+## 2 JS
+- Strat with defining the variables we'll use
+```js
+let blueScore = 0;
+let redScore = 0;
+let logs = [];
+
+let blueDiv = document.getElementById("blueP");
+let redDiv = document.getElementById("redP");
+let logsDiv = document.getElementById("logs");
+```
+
+
+
