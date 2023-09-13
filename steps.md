@@ -30,6 +30,21 @@
 </body>
 </html>
 ```
+###### Inside each child div add
+- <h1> with the color name <h1>Blue</h1> same for the red
+- Add <p> with the class="score" and id="blueScore"/"redScore" and write the number 0 between the <p>
 
-- Inside each child div add a <h1> with the color name Blue ```html <h1>Blue</h1>
+```html
+<div class="container">
+    <div class="player" id="blueP">
+        <h1>Blue</h1>
+        <p class="score" id="blueScore">0</p>
+    </div>
+
+    <div class="player" id="redP">
+        <h1>Red</h1>
+        <p class="score" id="redScore">0</p>
+    </div>
+</div>
 ```
+
