@@ -83,3 +83,25 @@ let logsDiv = document.getElementById("logs");
   <button id="Showlogs" onclick="showLogs()"> Show Logs </button>
 ```
 
+#### Now will start with functions
+- function that will be called when we click on the div
+```js
+function blueFunc() {
+    blueScore++;
+    updateScore();
+    logs.push("Blue");
+}
+function redFunc() {
+    redScore++;
+    updateScore();
+    logs.push("Red");
+}
+```
+
+```js
+function updateScore() {
+    document.getElementById("blueScore").innerHTML = blueScore;
+    document.getElementById("redScore").innerHTML = redScore;
+    updateScoreWidth();
+}
+```
