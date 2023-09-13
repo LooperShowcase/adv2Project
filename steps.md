@@ -155,3 +155,6 @@ function updateScoreWidth() {
     redDiv.style.width = redWidth;
 }
 ```
+
+## After we finish everything now it's time for styling
+### We can copy the html file and give it to Chat-GPT/Bard and ask AI to give us a styling for it and then Loopers can change it.
