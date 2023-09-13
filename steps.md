@@ -1,13 +1,16 @@
 # Loop - Advanced 2 - Project
 ### In this project Loopers will make a simple scoreboard game which can also be played as challenging game between two players who touch/ press faster
 
+the projects will have couple new features that will make cooler such as making random score and saving logs.
+Explin to Loopers what Logs are and give an example in football that in a match we don't just add the score when a team scores a goal but we know in what order what time and more data.
+
 ## 1
 - Start with making a copy of the starter folder for each Looper, The starter folder has     
   index.html, empty style.css+ script.js
 - Create a parent div with the class "container"
 - Inside the "container" div create 2 new divs (children)
 - Give both children divs the class "player" and give each one a specific id "blueP" + "redP"
-- Use the <center> to alight all elements in the center.
+- Use the <center> to align all elements in the center.
 
 ###### The code till now should look like this
 ```html
