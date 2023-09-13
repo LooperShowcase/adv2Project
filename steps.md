@@ -31,7 +31,7 @@
 </html>
 ```
 ###### Inside each child div add
-- <h1> with the color name <h1>Blue</h1> same for the red
+- <h1> with the color name ```<h1>Blue</h1>``` same for the red
 - Add <p> with the class="score" and id="blueScore"/"redScore" and write the number 0 between the <p>
 
 ```html
