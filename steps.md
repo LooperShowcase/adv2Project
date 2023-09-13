@@ -2,8 +2,37 @@
 ### In this project Loopers will make a simple scoreboard game which can also be played as challenging game between two players who touch/ press faster
 
 ### 1
-- Start with making a copy of the starter folder for each Looper, the starter folder has     
+- Start with making a copy of the starter folder for each Looper, The starter folder has     
   index.html, empty style.css+ script.js
 - Create a parent div with the class "container"
 - Inside the "container" div create 2 new divs (children)
-- Give both children divs the class "player" and give each one specific id "blueP" + "redP"
+- Give both children divs the class "player" and give each one a specific id "blueP" + "redP"
+- Use the <center> to alight all elements in the center.
+
+###### The code till now should look like this
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop ADV-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="player" id="blueP">
+        
+    </div>
+
+     <div class="player" id="redP">
+    
+    </div>
+  
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
