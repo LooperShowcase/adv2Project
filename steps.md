@@ -156,5 +156,10 @@ function updateScoreWidth() {
 }
 ```
 
+- Make sure too add this tag to the head of the html file to make it suitable for phones and avoid double-click to zoomIn
+```html
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+```
 ## After we finish everything now it's time for styling
 ### We can copy the html file and give it to Chat-GPT/Bard and ask AI to give us a styling for it and then Loopers can change it.
