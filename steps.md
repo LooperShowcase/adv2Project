@@ -20,19 +20,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="container">
-    <div class="player" id="blueP">
-        
-    </div>
-
-     <div class="player" id="redP">
-    
-    </div>
+  <div class="container">
+      <div class="player" id="blueP">     </div>
   
-</div>
+       <div class="player" id="redP">     </div>
+  </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
 ```
