@@ -105,3 +105,32 @@ function updateScore() {
     updateScoreWidth();
 }
 ```
+
+### Buttons functions
+##### Reset
+```js
+function reset()
+{
+    blueScore = 0;
+    redScore = 0;
+    logs = [];
+    logsDiv.innerText = logs;
+    updateScore();
+}
+```
+##### Random
+```js
+function random()
+{
+    blueScore = Math.floor(Math.random() * 100);
+    redScore = Math.floor(Math.random() * 100);
+    updateScore();
+}
+```
+##### ShowLogs
+```js
+function showLogs()
+{
+    logsDiv.innerText = logs.join("\n");
+}
+```
