@@ -1,7 +1,7 @@
 # Loop - Advanced 2 - Project
 ### In this project Loopers will make a simple scoreboard game which can also be played as challenging game between two players who touch/ press faster
 
-### 1
+## 1
 - Start with making a copy of the starter folder for each Looper, The starter folder has     
   index.html, empty style.css+ script.js
 - Create a parent div with the class "container"
@@ -48,4 +48,8 @@
     </div>
 </div>
 ```
-
+- Add 3 buttons below the parent ("container") div
+  ```  <button id="reset" onclick="reset()"> Reset </button>
+  <button id="random" onclick="random()"> Random </button>
+<button id="Showlogs" onclick="showLogs()"> Show Logs </button>
+```
