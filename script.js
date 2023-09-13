@@ -56,8 +56,7 @@ function showLogs()
     logsDiv.innerText = logs.join("\n");
 }
 
-blueDiv.addEventListener("touchstart", flipCard);
-redDiv.addEventListener("touchstart", flipCard);
+
 document.addEventListener("keydown", function(event) {
     
     if (event.key === "w" || event.key === "W") { blueFunc();}
