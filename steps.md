@@ -74,5 +74,12 @@ let redDiv = document.getElementById("redP");
 let logsDiv = document.getElementById("logs");
 ```
 
-
+- Before we continue in JS we should go to the HTML and add the "onclick" event for some elements
+```html
+  <div class="player" id="blueP" onclick="blueFunc()">
+  <div class="player" id="redP" onclick="redFunc()">
+  <button id="reset" onclick="reset()"> Reset </button>
+  <button id="random" onclick="random()"> Random </button>
+  <button id="Showlogs" onclick="showLogs()"> Show Logs </button>
+```
 
