@@ -134,3 +134,24 @@ function showLogs()
     logsDiv.innerText = logs.join("\n");
 }
 ```
+
+#### Add Event Listener
+```js
+document.addEventListener("keydown", function(event) {
+    if (event.key === "w" || event.key === "W") { blueFunc();}
+    else if (event.key === "ArrowUp") { redFunc();}
+    else {console.log("Key pressed: " + event.key);} 
+  });
+```
+
+- Last step is to change the width of the players div according to the score that they got
+```js
+function updateScoreWidth() {
+    const maxWidth = 200; // Maximum width in pixels
+    const maxScore = 10;  // Maximum possible score
+    const blueWidth = (blueScore / maxScore) * maxWidth + "px";
+    const redWidth = (redScore / maxScore) * maxWidth + "px";
+    blueDiv.style.width = blueWidth;
+    redDiv.style.width = redWidth;
+}
+```
