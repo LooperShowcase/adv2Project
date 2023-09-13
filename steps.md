@@ -30,3 +30,6 @@
 </body>
 </html>
 ```
+
+- Inside each child div add a <h1> with the color name Blue ```html <h1>Blue</h1>
+```
